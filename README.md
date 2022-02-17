@@ -41,3 +41,6 @@ The same change (add { static: true } as a second argument) needs to be applied 
 If you DON'T access the selected element in ngOnInit (but anywhere else in your component), set static: false instead!
 
 If you're using Angular 9+, you only need to add { static: true } (if needed) but not { static: false }.
+
+@ContentChild() in Angular 8+
+For ContentChild, the same adjustments as for ViewChild apply
